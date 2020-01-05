@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SEP_Framework.BUS.CreateForm" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>BUS\CreateForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SEP_Framework.BUS.DeleteForm" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>BUS\DeleteForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SEP_Framework.BUS.FormRoot" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAEASAMVAAAAQEAAQIAAAAACAAAgAAgAADgAMAAAAI=</HashCode>
+      <FileName>BUS\FormRoot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SEP_Framework.BUS.ReadForm" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>BUS\ReadForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SEP_Framework.BUS.UpdateForm" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>BUS\UpdateForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SEP_Framework.ConnectDatabase" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAIABAACAAAACAAAAEAAAAAgIAAAAAAA=</HashCode>
+      <FileName>ConnectDatabase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SEP_Framework.DashBoard" Collapsed="true">
+    <Position X="15.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAIAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>DashBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SEP_Framework.Program" Collapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SEP_Framework.CurrentDatabase" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAADAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\CurrentDatabase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SEP_Framework.Databases" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\Databases.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SEP_Framework.DAO.AbstractDAO" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAEQAQAAAgAAIAAAAAAAAAAEAACQAAABAAAAA=</HashCode>
+      <FileName>DAO\AbstractDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SEP_Framework.DAO.AbstractProcessData" Collapsed="true">
+    <Position X="6.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAIAAAJAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\AbstractProcessData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SEP_Framework.DAO.ProcessDataSQLServer" Collapsed="true">
+    <Position X="6.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAIAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAO\ProcessDataSQLServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SEP_Framework.DAO.SQLServerDAO" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAESAQAAAgAAIAAAAAAAAAMEAACQAAABAAAAA=</HashCode>
+      <FileName>DAO\SQLServerDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SEP_Framework.DTO.DefaultDTO" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>DTO\DefaultDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SEP_Framework.Factory.FormFactory" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\FormFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SEP_Framework.IoCContainer" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACABAAAAACAAAAAAAAAAAAACIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IoCContainer\IoCContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SEP_Framework.Membership.HashAlgorithmType" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Membership\HashAlgorithmType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SEP_Framework.Membership.Membership" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Membership\Membership.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SEP_Framework.Properties.Resources" Collapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SEP_Framework.Properties.Settings" Collapsed="true">
+    <Position X="15.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="SEP_Framework.Factory.FormType" Collapsed="true">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAQAAAAAAAAAAQAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Factory\FormFactory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
